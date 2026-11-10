@@ -1,0 +1,10 @@
+# Keep line endings correct on every OS (a CRLF gradlew breaks on macOS/Linux)
+* text=auto
+*.sh text eol=lf
+android/gradlew text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.ttf binary
+*.jar binary
+*.keystore binary
